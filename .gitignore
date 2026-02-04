@@ -1,0 +1,41 @@
+# --- Dependencies (Root & Frontend) ---
+node_modules/
+**/node_modules/
+yarn.lock
+
+# --- Security / Environment Variables ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+**/.env
+**/.env.*
+
+# --- Build Outputs (React & Hardhat) ---
+dist/
+build/
+out/
+_static/
+
+# --- Hardhat / Blockchain Specific ---
+artifacts/
+cache/
+typechain/
+typechain-types/
+coverage/
+coverage.json
+deployments/localhost/
+
+# --- Logs ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+hardhat.log
+
+# --- System Files (Mac/Windows) ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
